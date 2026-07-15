@@ -16,12 +16,13 @@ import {
   Mail,
 } from "lucide-react";
 
-import logoAsset from "@/assets/bosco-attivo-logo.asset.json";
-import logoFullAsset from "@/assets/bosco-attivo-logo-full.png.asset.json";
 import heroForest from "@/assets/hero-forest.jpg";
 import forestInterior from "@/assets/forest-interior.jpg";
 import mappingTech from "@/assets/mapping-tech.jpg";
 import forester from "@/assets/forester.jpg";
+
+const logoUrl = "/img/bosco-attivo-logo.jpg";
+const logoFullUrl = "/img/bosco-attivo-logo-full.png";
 
 export const Route = createFileRoute("/")({
   component: LandingPage,
@@ -73,7 +74,7 @@ function Header() {
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5 lg:px-10">
         <a href="#top" className="flex items-center gap-3">
           <img
-            src={logoAsset.url}
+            src={logoUrl}
             alt="Bosco Attivo Marche"
             className="h-24 w-auto"
           />
@@ -309,7 +310,7 @@ function Objectives() {
           ))}
           <article className="flex items-center justify-center bg-white p-8">
             <img
-              src={logoFullAsset.url}
+              src={logoFullUrl}
               alt="Bosco Attivo Marche — Mappare, aggregare, valorizzare i boschi del territorio"
               className="max-h-64 w-auto object-contain"
             />
@@ -660,7 +661,7 @@ function Footer() {
       <div className="mx-auto max-w-7xl px-6 lg:px-10">
         <div className="grid gap-10 lg:grid-cols-[1.4fr_1fr_1fr]">
           <div>
-            <img src={logoAsset.url} alt="Bosco Attivo Marche" className="h-12 w-auto" />
+            <img src={logoUrl} alt="Bosco Attivo Marche" className="h-12 w-auto" />
             <p className="mt-5 max-w-md text-sm leading-relaxed">
               Un progetto di <strong className="text-cream">Atteggiamento Digitale SB srl</strong> —
               Società Benefit. Ideato dal Dott. For. Giacomo Storti.
