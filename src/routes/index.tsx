@@ -76,7 +76,7 @@ function Header() {
           <img
             src={logoUrl}
             alt="Bosco Attivo Marche"
-            className="h-auto w-64 max-w-[64vw] sm:w-80 lg:w-[450px]"
+            className="h-auto w-64 max-w-[64vw] sm:w-80 lg:w-[35rem]"
           />
         </a>
         <nav className="hidden items-center gap-8 text-sm font-medium text-cream/90 md:flex">
