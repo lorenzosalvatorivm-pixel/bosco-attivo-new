@@ -76,7 +76,7 @@ function Header() {
           <img
             src={logoUrl}
             alt="Bosco Attivo Marche"
-            className="h-24 w-auto"
+            className="h-32 w-auto"
           />
         </a>
         <nav className="hidden items-center gap-8 text-sm font-medium text-cream/90 md:flex">
@@ -661,7 +661,7 @@ function Footer() {
       <div className="mx-auto max-w-7xl px-6 lg:px-10">
         <div className="grid gap-10 lg:grid-cols-[1.4fr_1fr_1fr]">
           <div>
-            <img src={logoUrl} alt="Bosco Attivo Marche" className="h-12 w-auto" />
+            <img src={logoUrl} alt="Bosco Attivo Marche" className="h-16 w-auto" />
             <p className="mt-5 max-w-md text-sm leading-relaxed">
               Un progetto di <strong className="text-cream">Atteggiamento Digitale SB srl</strong> —
               Società Benefit. Ideato dal Dott. For. Giacomo Storti.
